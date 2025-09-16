@@ -1,4 +1,5 @@
-# Spotify_dataset_data_visualization_Aishwarya
+\
+Spotify_dataset_data_visualization_Aishwarya
 I have visualized data from kaggle's spotify dataset using Matplotlib and Seaborn
 
 📂 Dataset Description: Ultimate Spotify Tracks Dataset
@@ -28,6 +29,7 @@ Insights:
 
 
 📊 Chart 2: Top 10 Artists by Number of Tracks
+
 <img src="charts/top10_artists.png" alt="Chart 1" width="600">
 Description:
 This bar chart shows the 10 artists with the highest number of tracks in the Spotify dataset. Each bar represents an artist and the corresponding count of their songs.
@@ -38,6 +40,7 @@ Insights:
 🟣The dominance of a few artists suggests that the dataset is skewed towards certain creators, which may influence recommendation systems if not balanced.
 
 📊 Chart 3: Average Loudness across Genres
+
 <img src="charts/avg_loudness.png" alt="Chart 1" width="600">
 Description:
 This line chart shows the average loudness (in decibels) of songs across different genres. Loudness is a key audio feature that represents the overall volume and intensity of a track.
@@ -46,6 +49,7 @@ Insights:
 🟣Genres like Dance, Reggaeton, Rap, and Ska tend to have the highest loudness levels (closer to 0 dB), which aligns with their energetic and upbeat nature.
 🟣On the other hand, genres such as Classical, Opera, and Soundtracks are much quieter on average, reflecting their dynamic range and softer compositions.
 🟣The variation in loudness across genres highlights how audio engineering differs based on the mood and purpose of the music — e.g., pop and hip-hop aim for loud, radio-friendly mixes, while classical music prioritizes dynamic depth.
+
 
 📊 Chart 4: Genre Distribution (Top 6)
 <img src="charts/genre_distribution.png" alt="Chart 1" width="600">
@@ -58,6 +62,7 @@ Insights:
 🟣The near-uniform distribution suggests that the dataset maintains a balanced representation of major genres, which is useful for general-purpose analysis but may not reflect real-world streaming trends where pop/hip-hop usually dominate.
 
 
+
 📊 Chart 5: Energy vs Danceability
 <img src="charts/Energy_Danceablity.png" alt="Chart 1" width="600">
 Description:
@@ -68,8 +73,10 @@ Insights:
 🟣Very low-energy songs (near 0) are rarely danceable, which matches intuition (e.g., calm or acoustic tracks).
 🟣The distribution is not perfectly linear — some high-energy songs are not very danceable.
 
+
+
 📊 Chart 6: Top 10 Genres by Average Tempo
-<img src="charts/Energy_Danceablity.png" alt="Chart 1" width="600">
+<img src="charts/tempo_distribution.png" alt="Chart 1" width="600">
 Description:
 This horizontal bar chart compares the average tempo (BPM) of the top 10 music genres.
 
