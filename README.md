@@ -14,6 +14,7 @@ Features Include:
 📑 Other: mode, key, time signature
 ----------------------------------------------------------------------------------
 📊 Chart 1: Distribution of Song Durations (Histogram)
+<img src="charts/duration_distribution.png" alt="Chart 1" width="600">
 
 Description:
 This histogram shows how long songs typically last, measured in minutes.
@@ -27,6 +28,7 @@ Insights:
 
 
 📊 Chart 2: Top 10 Artists by Number of Tracks
+<img src="charts/duration_distribution.png" alt="Chart 1" width="600">
 Description:
 This bar chart shows the 10 artists with the highest number of tracks in the Spotify dataset. Each bar represents an artist and the corresponding count of their songs.
 
@@ -36,6 +38,7 @@ Insights:
 🟣The dominance of a few artists suggests that the dataset is skewed towards certain creators, which may influence recommendation systems if not balanced.
 
 📊 Chart 3: Average Loudness across Genres
+<img src="charts/duration_distribution.png" alt="Chart 1" width="600">
 Description:
 This line chart shows the average loudness (in decibels) of songs across different genres. Loudness is a key audio feature that represents the overall volume and intensity of a track.
 
@@ -45,6 +48,7 @@ Insights:
 🟣The variation in loudness across genres highlights how audio engineering differs based on the mood and purpose of the music — e.g., pop and hip-hop aim for loud, radio-friendly mixes, while classical music prioritizes dynamic depth.
 
 📊 Chart 4: Genre Distribution (Top 6)
+<img src="charts/genre_distribution.png" alt="Chart 1" width="600">
 Description:
 This pie chart shows the distribution of the top 6 most common genres in the Spotify dataset. Each slice represents the percentage of songs belonging to a genre.
 
@@ -55,6 +59,7 @@ Insights:
 
 
 📊 Chart 5: Energy vs Danceability
+<img src="charts/Energy_Danceablity.png" alt="Chart 1" width="600">
 Description:
 This scatter plot shows the relationship between a track’s energy (how lively/intense it feels) and its danceability (how suitable it is for dancing).
 
@@ -64,7 +69,7 @@ Insights:
 🟣The distribution is not perfectly linear — some high-energy songs are not very danceable.
 
 📊 Chart 6: Top 10 Genres by Average Tempo
-
+<img src="charts/Energy_Danceablity.png" alt="Chart 1" width="600">
 Description:
 This horizontal bar chart compares the average tempo (BPM) of the top 10 music genres.
 
@@ -76,7 +81,7 @@ Insights:
 
 
 📊 Chart 7: Popularity Distribution Across Genres
-
+<img src="charts/popularity_distribution.png" alt="Chart 1" width="600">
 Description:
 This boxplot illustrates the spread of popularity scores across different music genres. Each box shows the median, quartiles, and outliers for popularity within that genre.
 
@@ -88,7 +93,7 @@ Insights:
 
 
 📊 Chart 8: Danceability Across Genres
-
+<img src="charts/genre_distribution.png" alt="Chart 1" width="600">
 Description:
 This violin plot displays the distribution of danceability scores across different music genres. The width of each violin represents the density of songs at different danceability levels, while the inner quartile lines show central tendencies.
 
@@ -99,8 +104,8 @@ Insights:
 🟣The visualization reinforces how genre strongly influences the "groove" factor of a track.
 
 
-📊 Chart 9: Correlation Heatmap of Audio Features
-
+📊 Chart 9: Correlation Heatmap of Audio Features 
+<img src="charts/genre_distribution.png" alt="Chart 1" width="600">
 Description:
 This heatmap shows the pairwise correlations between key audio features such as danceability, energy, acousticness, valence, tempo, etc. Correlation values range from -1 (strong negative) to +1 (strong positive).
 
@@ -114,7 +119,7 @@ Insights:
 
 
 📊 Chart 10: Density Plot of Song Loudness
-
+<img src="charts/kdeplot_songloudness.png" alt="Chart 1" width="600">
 Description:
 This KDE plot shows the distribution of loudness (in decibels) across all tracks in the dataset. The curve represents where most songs fall on the loudness scale.
 
@@ -125,7 +130,7 @@ Insights:
 🟣This insight reflects how the music industry prioritizes loud, impactful sound for better presence on radio and streaming platforms.
 
 📊 Chart 11: Pairplot of Audio Features
-
+<img src="charts/pairplot_features.png" alt="Chart 1" width="600">
 Description:
 This pairplot shows the relationships between four key features — danceability, energy, valence, and tempo. The diagonal shows KDE distributions, while the off-diagonal plots display scatter relationships between pairs of features.
 
@@ -136,7 +141,7 @@ Insights:
 🟣The distributions on the diagonals reveal that most features are concentrated in mid-to-high ranges (except tempo, which has a broader spread).
 
 📊 Chart 12: Distribution of Track Popularity (Histogram)
-
+<img src="charts/countplot_popularity.png" alt="Chart 1" width="600">
 Description:
 This histogram shows how songs are distributed based on their popularity score (0–100). Popularity is determined by factors like play counts, recency, and listener engagement on Spotify.
 
