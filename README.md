@@ -15,7 +15,7 @@ Features Include:
 📑 Other: mode, key, time signature
 ----------------------------------------------------------------------------------
 📊 Chart 1: Distribution of Song Durations (Histogram)
-<img src="charts/duration_distribution.png" alt="Chart 1" width="600">
+<img src="charts/duration_distribution(2).png" alt="Chart 1" width="600">
 
 Description:
 This histogram shows how long songs typically last, measured in minutes.
