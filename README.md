@@ -28,7 +28,7 @@ Insights:
 
 
 📊 Chart 2: Top 10 Artists by Number of Tracks
-<img src="charts/duration_distribution.png" alt="Chart 1" width="600">
+<img src="charts/top10_artists.png" alt="Chart 1" width="600">
 Description:
 This bar chart shows the 10 artists with the highest number of tracks in the Spotify dataset. Each bar represents an artist and the corresponding count of their songs.
 
@@ -38,7 +38,7 @@ Insights:
 🟣The dominance of a few artists suggests that the dataset is skewed towards certain creators, which may influence recommendation systems if not balanced.
 
 📊 Chart 3: Average Loudness across Genres
-<img src="charts/duration_distribution.png" alt="Chart 1" width="600">
+<img src="charts/avg_loudness.png" alt="Chart 1" width="600">
 Description:
 This line chart shows the average loudness (in decibels) of songs across different genres. Loudness is a key audio feature that represents the overall volume and intensity of a track.
 
@@ -93,7 +93,7 @@ Insights:
 
 
 📊 Chart 8: Danceability Across Genres
-<img src="charts/genre_distribution.png" alt="Chart 1" width="600">
+<img src="charts/genre_danceability.png" alt="Chart 1" width="600">
 Description:
 This violin plot displays the distribution of danceability scores across different music genres. The width of each violin represents the density of songs at different danceability levels, while the inner quartile lines show central tendencies.
 
@@ -105,7 +105,7 @@ Insights:
 
 
 📊 Chart 9: Correlation Heatmap of Audio Features 
-<img src="charts/genre_distribution.png" alt="Chart 1" width="600">
+<img src="charts/correlation_heatmap.png" alt="Chart 1" width="600">
 Description:
 This heatmap shows the pairwise correlations between key audio features such as danceability, energy, acousticness, valence, tempo, etc. Correlation values range from -1 (strong negative) to +1 (strong positive).
 
