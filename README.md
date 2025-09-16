@@ -31,7 +31,7 @@ Description:
 This bar chart shows the 10 artists with the highest number of tracks in the Spotify dataset. Each bar represents an artist and the corresponding count of their songs.
 
 Insights:
-🟣Classical composers like Giuseppe Verdi, Giacomo Puccini, Mozart, and Bach dominate the dataset, likely because their compositions are often recorded in multiple albums and variations.
+🟣Classical composers like Giuseppe Verdi, Giacomo Puccini, Mozart dominate the dataset, likely because their compositions are often recorded in multiple albums and variations.
 🟣Some modern entries like Juice Music also appear, indicating diversity in the dataset across time periods.
 🟣The dominance of a few artists suggests that the dataset is skewed towards certain creators, which may influence recommendation systems if not balanced.
 
@@ -61,7 +61,7 @@ This scatter plot shows the relationship between a track’s energy (how lively/
 Insights:
 🟣Songs with medium to high energy (0.4–0.8) tend to also have higher danceability, showing a moderate positive relationship.
 🟣Very low-energy songs (near 0) are rarely danceable, which matches intuition (e.g., calm or acoustic tracks).
-🟣The distribution is not perfectly linear — some high-energy songs are not very danceable (like aggressive rock/metal).
+🟣The distribution is not perfectly linear — some high-energy songs are not very danceable.
 
 📊 Chart 6: Top 10 Genres by Average Tempo
 
@@ -73,6 +73,7 @@ Insights:
 🟣Electronic and Anime genres also trend towards higher tempos, aligning with their upbeat and vibrant nature.
 🟣Genres like Children’s Music, Blues, and Pop sit on the lower side (~120 BPM), showing a calmer rhythm.
 🟣The difference between the slowest and fastest genres is around 10 BPM, meaning tempo variation across genres is moderate.
+
 
 📊 Chart 7: Popularity Distribution Across Genres
 
